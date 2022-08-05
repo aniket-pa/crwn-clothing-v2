@@ -12,7 +12,7 @@ export const ProductsProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
 
   // useEffect(() => {
-  //   addCollectionAndDocuments('collections', SHOP_DATA);
+  //   addCollectionAndDocuments('category', SHOP_DATA);
   // }, []);
 
   const value = { products };
